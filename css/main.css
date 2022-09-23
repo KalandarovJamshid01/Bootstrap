@@ -23,3 +23,44 @@
   right: 16px;
   background-color: rgba(255, 255, 255, 0.6);
 }
+.dropdown-nav__container {
+  height: 100vh;
+  padding: 0 1rem;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-color: var(--primary-color);
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+.hero__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--primary-color);
+  opacity: 0.5;
+  z-index: 1;
+}
