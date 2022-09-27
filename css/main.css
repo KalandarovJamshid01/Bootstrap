@@ -69,7 +69,6 @@ a:hover {
 }
 
 .container-custom {
-  width: 10%;
   padding: 0 1rem;
   margin: 0 auto;
 }
@@ -110,4 +109,17 @@ a:hover {
   to {
     transform: translateY(-10px);
   }
+}
+
+.steps {
+  padding: 0 40px;
+}
+.steps__section-thumbnail {
+  height: 240px;
+  object-fit: cover;
+}
+
+.steps__content-width {
+  max-width: 456px;
+  margin: 0 auto;
 }
