@@ -123,3 +123,7 @@ a:hover {
   max-width: 456px;
   margin: 0 auto;
 }
+
+.btn-outline-light:hover {
+  color: #0a1118 !important;
+}
